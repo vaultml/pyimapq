@@ -6,7 +6,7 @@ import json
 import base64
 
 
-class PyMailQ(object):
+class PyImapQ(object):
     def __init__(self, user, password, server='imap.gmail.com'):
         self._user = user
         self._password = password
